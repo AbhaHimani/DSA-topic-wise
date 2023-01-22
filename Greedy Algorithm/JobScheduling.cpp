@@ -35,12 +35,11 @@ public:
         priority_queue<int> pq;
         sort(arr, arr + n, myComp);
         // 2,3,4,1
-        vector<int> ans;
+
         int count = 0;
         int profit = 0;
         // 2,3,4,1
 
-        vector<int> check;
         int tot = arr[n - 1].dead;
         // 4
         int idx = n - 1;
